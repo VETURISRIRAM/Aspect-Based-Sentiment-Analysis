@@ -11,11 +11,11 @@ The training dataset folder contains two .csv training data files. The data-1_tr
 
 ### The description of each column in each .csv file is as follows:
 
-Column A: review sentence id (unique id for a training instance).
-Column B: review sentence
-Column C: aspect term in the sentence
-Column D: aspect term location  [format: start index -- End index]
-Column E: sentiment label
+Column A: review sentence id (unique id for a training instance).<br />
+Column B: review sentence.<br />
+Column C: aspect term in the sentence.<br />
+Column D: aspect term location  [format: start index -- End index].<br />
+Column E: sentiment label.<br />
 
  
 Note:- "," in review sentence (column B) is denoted as "[comma]" to separate it from the column delimiter (",") of .csv file. While parsing (data file reading), you can use "," to split the line into fields (coloums) values.
@@ -26,11 +26,11 @@ Note:- "," in review sentence (column B) is denoted as "[comma]" to separate it 
 Python implementation of Aspect based Sentiment Analysis. Keep both the training files in the same directory as the python files. Run main.py to see results.
 
 The project needs some external library files.
-Numpy
-MatplotLib
-Pandas
-NLTK
-textblob
-SKLearn
+Numpy<br />
+MatplotLib<br />
+Pandas<br />
+NLTK<br />
+textblob<br />
+SKLearn<br />
 
 These could be installed using packaging tools like PIP. We use VENV environment.
