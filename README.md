@@ -25,7 +25,7 @@ Note:- "," in review sentence (column B) is denoted as "[comma]" to separate it 
 ## Implementation
 Python implementation of Aspect based Sentiment Analysis. Keep both the training files in the same directory as the python files. Run main.py to see results.
 
-The project needs some external library files.
+#### The project needs some external library files.<br />
 Numpy<br />
 MatplotLib<br />
 Pandas<br />
